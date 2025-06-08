@@ -1,0 +1,32 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+}
+
+.app-header {
+  background-color: #4285f4;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 1.75rem;
+}
+
+.app-main {
+  flex: 1;
+  padding: 2rem 1rem;
+}
+
+.app-footer {
+  text-align: center;
+  padding: 1rem;
+  color: #5f6368;
+  font-size: 0.9rem;
+  background-color: #f8f9fa;
+  border-top: 1px solid #e0e0e0;
+}
